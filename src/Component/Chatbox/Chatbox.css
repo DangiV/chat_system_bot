@@ -1,0 +1,267 @@
+.main-chatbox .topchats {
+    padding: 0 22px;
+}
+
+.main-chatbox .pulsicon {
+    border-radius: 50%;
+    background-color: #926db7;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.main-chatbox .inputsearch {
+    background-color: #eeecec;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 7px 7px 7px 13px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto 8px auto;
+    margin-bottom: 8px;
+}
+
+.main-chatbox .inputsearch input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+}
+
+.main-chatbox .inputsearch i {
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.main-chatbox .listchats {
+    height: 70.4vh;
+    overflow: auto;
+}
+
+.listchats .listchats-under img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.listchats .listchats-under {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listchats .listchats-under:hover {
+    background-color: #f2eef4;
+    transition: 1s;
+}
+
+.listchats .listchats-under .listchatsudr-data {
+    display: flex;
+    gap: 14px;
+}
+
+.listchats .listchats-under .chlstname {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px 0 0 0;
+}
+
+.listchats .listchats-under .chlstmessage {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.chatrightbox img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.listchats::-webkit-scrollbar {
+    width: 5px;
+    background-color: gray;
+    scrollbar-color: #007 #bada55;
+}
+
+.message-container::-webkit-scrollbar {
+    width: 5px;
+    background-color: gray;
+    scrollbar-color: #007 #bada55;
+}
+
+.message {
+    background-color: #926db7;
+    border-radius: 0px 10px 10px 10px;
+    padding: 10px 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.tokmessage {
+    background-color: #f2eef4;
+    border-radius: 0px 10px 10px 10px;
+    padding: 10px 10px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.message-container {
+    width: 100%;
+    height: 74.4vh;
+    overflow: auto;
+    padding-right: 8px;
+}
+
+.message-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.message-container .today {
+    width: 100%;
+    background-color: #eaeaea;
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.message-container .todayunder {
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+
+.date {
+    text-align: center;
+}
+
+.chatrightbox .sendmessage {
+    width: 100%;
+    border: 1px solid #eaeaea;
+}
+
+.sendmessage input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.main-chatbox .listchats-under .ltchnotifi {
+    border-radius: 50%;
+    background-color: green;
+    font-size: 8px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+}
+
+.submitBtn {
+    border-radius: 50%;
+    background-color: #926db7;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+}
+
+@media(max-width : 1056px) {
+    .listchats .listchats-under img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .listchats .listchats-under .chlstname {
+        font-size: 12px;
+    }
+
+    .listchats .listchats-under .chlstmessage {
+        font-size: 10px;
+    }
+
+    .listchats .listchats-under {
+        padding: 10px 5px;
+    }
+}
+
+@media(max-width : 855px) {
+    .listchats .listchats-under .chlsttsdime {
+        display: none;
+    }
+
+}
+
+@media(max-width : 767px) {
+    .main-chatbox .inputsearch i {
+        padding-right: 5px;
+    }
+
+    .main-chatbox .inputsearch {
+        padding: 7px 7px 7px 7px !important;
+    }
+
+    .listchats .listchats-under .listchatsudr-data {
+        display: flex;
+        gap: 6px;
+    }
+
+    .listchats .listchats-under {
+        gap: 6px;
+    }
+
+    .main-chatbox .topchats {
+        padding: 0 14px;
+    }
+}
+
+@media(max-width : 575px) {
+    .listchats .listchats-under .chlstname {
+        font-size: 16px;
+    }
+
+    .listchats .listchats-under .chlstmessage {
+        font-size: 14px;
+    }
+
+   
+    .listchats .listchats-under {
+        justify-content: space-between;
+        padding: 10px 29px;
+    }
+
+    .main-chatbox .topchats {
+        padding: 0 30px;
+    }
+}
+
+
+.sent-message {
+    text-align: right;
+    background-color: white !important;
+    color: black !important;
+    /* Add other styles for outgoing messages */
+}
+
+.received-message {
+    text-align: left;
+    background-color: white !important;
+    color: black !important;
+    /* Add other styles for incoming messages */
+}

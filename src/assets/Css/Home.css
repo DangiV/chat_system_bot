@@ -1,0 +1,9 @@
+.chartboardlist{
+    width: 100%;
+    height: 600px;
+    overflow: auto;
+}
+.list-user:hover{
+    background-color: rgba(247,125,62,255);
+
+}

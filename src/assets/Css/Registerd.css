@@ -1,0 +1,87 @@
+.registerd{
+    width: 100%;
+    height: 93.5vh;
+    background-image: url(https://img.freepik.com/premium-photo/house-thailand-with-car-parked-front-it_859992-13.jpg?w=996);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.registerd .registerdunder{
+    width: 100%;
+    height: 100%;
+    background-color: rgba( 0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registerd .registerd-container{
+    width: 450px;
+    height: 450px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 0 10px;
+}
+.registerd .registerd-under{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    border: 1px solid  white;
+    /* background-color: #926db7; */
+    /* position: relative; */
+    /* top: -50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 20px  auto;
+}
+.registerd .registerd-container i{
+    font-size: 55px;
+}
+.registerd .Rinputdata{
+    margin: 0px auto 10px auto;
+    display: flex;
+    align-items: center;
+    /* background-color: white; */
+    padding: 10px;
+    border-radius: 4px;
+    gap: 10px;
+    border: 1px solid white;
+}
+.registerd .Rinputdata i{
+    color: white;
+    font-size: 18px;
+}
+.registerd .Rinputdata input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.registerd .Rinputdata  input::placeholder{
+    color: white;
+}
+.registerd .Rinputtext{
+    width: 95%;
+    margin: 0px auto 10px auto;
+}
+.registerd .Rinputtext a{
+    color: white;
+}
+.registerd .registertbtn{
+    background-color: transparent;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 8px 30px;
+    font-size: 16px;
+    border: 1px solid white;
+}
+@media(max-width : 576px){
+    .registerd .registerd-container{
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+}
